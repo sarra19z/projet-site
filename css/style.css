@@ -1,0 +1,77 @@
+li {
+    list-style-type: none; /* On ne veut aucune puce */
+}
+
+ul{
+    display: flex;
+    padding-left: 0;
+    justify-content: space-around;
+    margin: 0;
+}
+
+nav{
+    background-color: #24ad89;
+}
+
+a{
+    display: inline-block;
+    padding: 20px 15px;
+    color: white;
+    text-decoration: none;
+}
+
+a:hover{             /* quand mon curseur survol l'élément, ça va changer sa couleur */
+    background-color: white; 
+    color: red;    /* la couleur du texte du lien va changer aussi en rouge */
+}
+
+body{
+    margin: 0;
+}
+
+header{
+    background-image: url('../images/R\ \(1\).jfif');
+    height: 70vh ;
+    background-size: 100% auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+h1, header p {
+    color: white;
+    text-align: center;
+    background-color: rgba(192, 192, 192, 0.363);
+}
+
+h1{
+    font-size: 50px;
+}
+
+h2{
+    text-align: center;
+}
+
+p{
+    color: red;
+    text-align: justify;
+}
+
+div{
+    padding-bottom: 20px;
+}
+
+.section-paire{
+    background-color: rgb(255, 255, 255);
+}
+
+
+
+
+
+#div-droite{
+    width: 50%;
+    box-sizing: border-box;
+    padding-left: 15px;
+}
+
