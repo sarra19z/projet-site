@@ -16,7 +16,7 @@ nav{
 a{
     display: inline-block;
     padding: 20px 15px;
-    color: white;
+    color: #fff23d;
     text-decoration: none;
 }
 
@@ -32,7 +32,7 @@ body{
 header{
     background-image: url('../images/R\ \(1\).jfif');
     height: 70vh ;
-    background-size: 100% auto;
+    background-size: cover;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -43,6 +43,16 @@ h1, header p {
     text-align: center;
     background-color: rgba(192, 192, 192, 0.363);
 }
+
+p{
+    text-align: justify;
+    font-family: charly;
+}
+
+#special{
+    font-size: 30px;
+}
+
 
 h1{
     font-size: 50px;
@@ -57,6 +67,19 @@ p{
     text-align: justify;
 }
 
+header div{
+    padding-bottom: 20px;
+}
+
+main > section{
+    padding: 50px 12%;
+    background-color: bisque;
+}
+
+h2, h3{
+    text-align: center;
+}
+
 div{
     padding-bottom: 20px;
 }
@@ -65,13 +88,122 @@ div{
     background-color: rgb(255, 255, 255);
 }
 
-
-
-
+img{
+    width: 50%;
+    height:auto;
+    object-fit: contain;
+}
 
 #div-droite{
     width: 50%;
     box-sizing: border-box;
     padding-left: 15px;
+}
+
+#section-2-2{
+    display: flex;
+    flex-wrap:wrap
+}
+
+#img-container img{
+    width:25%;
+    height: auto;
+    box-sizing: border-box;
+    padding:5px;
+}
+
+#img-container{
+    display:flex;
+    flex-wrap: wrap;
+}
+
+input:not([type=radio]), textarea{
+    width:100%;
+    box-sizing: border-box;
+    padding: 12px 20px;
+}
+
+form{
+    width:50%;
+}
+
+#form-container{
+    display: flex;
+    justify-content: center;
+}
+
+#input-container{
+    display: flex;
+    justify-content: space-between;
+}
+
+#input-container div{
+    width:49%
+}
+
+form > div, fieldset{
+    margin-bottom: 12px;
+}
+
+input[type=submit]{
+    background-color: bisque;
+    cursor:pointer;
+    transition: 0.2s;
+    
+}
+
+input[type=submit]:hover{
+    background-color: rgb(255, 190, 111);
+}
+
+h1,h2,h3{
+    font-family: 'Rubik Beastly', cursive;
+}
+
+@media(max-width: 1400px){
+    main > section{
+        padding: 50px 125px;
+    }
+}
+
+@media(max-width: 1200px){
+    #img-container img{
+        width: 33.3333333%
+    }
+
+    img{
+        width:100%;
+    }
+
+    #div-droite{
+        width:100%;
+        padding-left: 0
+    }
+}
+
+
+@media(max-width: 992px){
+    #img-container img{
+        width: 50%
+    }
+
+    form{
+       width:70% 
+    }
+}
+
+@media(max-width:768px){
+    main > section{
+        padding: 50px 60px
+    }
+
+    #img-container img{
+        width: 100%
+    }
+}
+
+@font-face{
+    src: url('../fonts/Minecraft.ttf');
+    font-family: 'charly'
 }
 
