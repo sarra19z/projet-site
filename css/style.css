@@ -31,6 +31,7 @@ body{
 
 header{
     background-image: url('../images/R\ \(1\).jfif');
+    background: linear-gradient(rgb (40,0,0,0.2) 70%, rgb(40,0,0,1));
     height: 70vh ;
     background-size: cover;
     display: flex;
