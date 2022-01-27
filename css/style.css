@@ -73,7 +73,6 @@ header div{
 
 main > section{
     padding: 50px 12%;
-    background-color: #73ffda62;
 }
 
 h2, h3{
@@ -85,7 +84,7 @@ div{
 }
 
 .section-paire{
-    background-color: rgb(255, 255, 255);
+    background-color:#73ffda2d;
 }
 
 img{
@@ -146,14 +145,14 @@ form > div, fieldset{
 }
 
 input[type=submit]{
-    background-color: #73ffda62;
+    color: white;
+    background-color: #fa7d57;
     cursor:pointer;
     transition: 0.2s;
-    
 }
 
 input[type=submit]:hover{
-    background-color: rgb(255, 190, 111);
+    background-color: #73ffda;
 }
 
 h1,h2,h3{
